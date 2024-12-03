@@ -13,7 +13,7 @@ namespace WinFormsApp6
             this.MinimizeBox = false;
 
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.SelectedIndexChanged += ComboBox1_SelectedIndexChanged;
+            comboBox1.SelectedIndexChanged += ComboBox1_SelectedIndexChanged; 
             checkBox1.CheckedChanged += CheckBox1_CheckedChanged;
         }
 
